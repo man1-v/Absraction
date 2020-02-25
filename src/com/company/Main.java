@@ -35,6 +35,10 @@ public class Main {
         DogAbstract1 uObject = new DogAbstract1();
         uObject.animalSound();
         uObject.sleep();
+
+        HorseAbstract1 onePoint = new HorseAbstract1();
+        onePoint.animalSound();
+        onePoint.sleep();
         
     }
 }

@@ -1,9 +1,8 @@
 package com.company;
 
-public  abstract class DogAbstract {
+public abstract class HorseAbstract {
     public abstract void animalSound();
     public void sleep(){
-
-        System.out.println("purr");
+        System.out.println("o");
     }
 }

@@ -38,7 +38,30 @@ public class Main {
 
         HorseAbstract1 onePoint = new HorseAbstract1();
         onePoint.animalSound();
-        onePoint.sleep();
+
+
+        Eagle myEagle = new Eagle();
+        myEagle.birdsSound();
+        myEagle.sleep();
+
+        sparrow mySparrow = new sparrow();
+        mySparrow.birds1Sound();
+        mySparrow.sleep();
+
+        Month month = Month.FEBRUARY;
+        System.out.println(month);
+        Weeks day = Weeks.SATURDAY;
+        System.out.println(day);
+
+        Subject myObj = new Subject();
+        myObj.myText1();
+        myObj.MyText();
+
+        String world = "This is String text 123 and something else";
+        String another = world.replaceAll("\\D","_");
+        System.out.println(world);
+        System.out.println(another);
+
         
     }
 }
